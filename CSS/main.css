@@ -1,0 +1,581 @@
+html{
+	height:100%;
+	background:#fff;
+    position: relative;
+}
+
+*{
+font-family: Trebuchet MS, Helvetica, sans-serif;
+box-sizing: border-box;
+    
+}
+
+body{
+	height:auto;
+	margin:0;
+    position: relative;
+	font-weight:bolder;
+	text-align:center;
+    overflow: auto;
+}
+
+
+/*----------------------------------------хідер*-------------------------------*/
+header{
+    position: relative;
+	margin:auto;
+   // min-width: 400px;
+}
+.inner-header{
+   // background:#232323; 
+    background: url(../Images/head-picture.jpg)no-repeat center bottom ; 
+      //background:#54b04b;
+    height:10%;
+    min-height: 100px;
+	color: #fcfcfc;	  
+	font-weight:bolder;
+	text-align:center;
+
+
+}
+.header-center{
+    margin-left: 15%;
+     width: 85%;
+     height:100%;
+    //min-width: 300px;
+    position:relative;
+    
+}
+.menu{
+    position: relative;
+    float: left;
+    width: 70%;   
+  //  min-width:200px;
+     height:100%;
+    text-align: right;
+    font-weight:normal;
+}
+#logo{
+	float:left;
+    height:100%;
+    width: 15%; 
+}
+#logo_image{
+    height:100%;
+      width: 100%;
+    min-width:200px;
+}
+.multi-lang{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 15%;
+}
+.lang{
+    position: relative;
+    float: left;
+    height: 50%;
+    width: 50%;
+}
+#ua{
+    float: right;
+}
+#ua,#en{
+    margin-top: -25px;
+    height: 65px;
+    
+     -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#ua:hover{
+    -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#en:hover{
+    -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*-----------------------------------Menu--------------------------------*/
+.top-indent{
+    height: 50%;    
+}
+.drop{
+    height: 50%;    
+}
+.drop_menu {
+    float: right;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+     background: rgba(0, 0, 0, 0.7);
+}
+
+.drop_menu li { 
+    float:right; 
+bottom:0;;
+}
+.drop_menu li a {
+    opacity: 1.0;
+	padding:10px 25px;
+	display:block;
+	color:white;
+	text-decoration:none;
+    font-size: 120%;
+   
+}
+.drop_menu li a:hover {
+    color: #fff;
+   border-style: solid;
+       padding-bottom:11.5px;
+     border-top:0;
+     border-right:0;
+     border-left:0;
+    border-bottom-color: red;
+    
+}
+
+/* Submenu */
+.drop_menu ul {
+    position: absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+     z-index: 1;
+    
+}
+.drop_menu li:hover { 
+    position:relative; 
+    color: white;      
+}
+
+.drop_menu li:hover ul {
+    margin-top: 10.7px;
+	left:0px;
+	top:30px;
+	padding:0px;
+}
+.start-min{
+    text-align: left;
+}
+.drop_menu li:hover ul li a { 
+    background:#232323; 
+	padding:5px;
+	display:block;
+   // min-width: 150px;
+	width:157px;
+    box-shadow: -1px 5px  2rem rgba(0,0,0,.9);
+    
+}
+
+.drop_menu li:hover ul li a:hover { 
+    background:#393939;
+     color: #fff;  
+}
+.top-sub-menu{
+    margin-top:6px;   
+}
+.top-sub-menu-main{
+    margin-top:9px; 
+     border-top: solid;
+    border-width: 2px;
+    border-color: red;
+}
+.hide{
+    visibility: hidden;
+}
+.user-icon{ 
+    padding-top: 7px;
+     padding-right: 7px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;  
+}
+/*----------------------------------------контент*-------------------------------*/
+.content{
+	margin-left: 15%;
+    margin-right: 15%;
+     width: 70%;
+  //  min-width: 800px;
+    min-height: 500px;
+	position:relative;
+} 
+.inner-content{
+    height: 85%;
+   min-height: 500px;
+}
+.banner-block{
+    position: relative;
+    float: left;
+    height: 40%;
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;  
+    min-height:400px;
+   // min-width:880px;
+         background: url(../Images/BannerFon-1200.jpg)no-repeat center bottom ;
+       
+}
+
+.coutdown-timer{
+    position: relative;
+    float: left;
+    height: 25%;
+    width: 80%; 
+    margin-left: 10%;
+    margin-top: 24%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.programma{
+    position: relative;
+    float: left;
+    height: 40%;
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;
+   // min-width: 800px;
+    min-height: 320px;
+}
+
+
+.programma-head{
+    color:#232323;
+    font-size: 3.2em;
+    float: left;
+    height: 20%;
+    min-height: 75px;
+    width: 100%; 
+}
+
+.menu-items{
+    position: relative;
+   float: left;
+    position: relative; 
+    min-height:100px ;
+  //  min-width: 150px;
+    width: 33.33%;
+    height: 80%; 
+    border: 1px solid #fff;
+    transition: 0.5s;
+    box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none; 
+   
+     /*---------------------Ч/б фільтр------------------------------*/
+}
+.menu-items a:hover{
+    text-decoration: none;
+}
+.menu-items:hover{
+    -webkit-transform: scaleY(1.1);
+    -ms-transform: scaleY(1.1);
+    -o-transform: scaleY(1.1);
+    -ms-transform: scaleY(1.1);
+    transform: scaleY(1.1);
+}
+.items-place-for-h2{
+    width: 100%;
+    height: 45%;
+    min-height: 130px;
+   // min-width: 250px;
+    padding-top:2%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    transition: .3s linear;
+    border-radius: 6px;
+}
+
+.inner-menu-items_1:hover .items-place-for-h2{
+animation: none;
+  opacity: .9;
+  height: 50%;
+}
+
+.inner-menu-items_2:hover .items-place-for-h2{
+animation: none;
+  opacity: .9;
+  height: 50%;
+}
+.inner-menu-items_3:hover .items-place-for-h2{
+animation: none;
+  opacity: .9;
+  height: 50%;
+}
+
+
+.inner-menu-items_1 {
+    position: relative;
+    height: 100%;
+    background: url(../Images/Middle11.08.jpg)no-repeat center bottom ; 
+    border-radius: 6px;
+    transition: 1.2s ease;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    background-position: center;
+    
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+}
+.inner-menu-items_2 {
+    position: relative;
+    height: 100%;
+    background: url(../Images/Long12.08.jpg)no-repeat center bottom ; 
+    border-radius: 6px;
+    transition: 1.2s ease;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    background-position: center;
+    
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+}
+.inner-menu-items_3 {
+    position: relative;
+    height: 100%;
+    background: url(../Images/Sprint13.08.jpg)no-repeat center bottom ; 
+    border-radius: 6px;
+    transition: 1.2s ease;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    background-position: center;
+    
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+}
+.inner-menu-items_1:hover .items-place-for-h2{
+animation: none;
+  opacity: .9;
+  height: 55%;
+}
+
+.inner-menu-items_2:hover .items-place-for-h2{
+animation: none;
+  opacity: .9;
+  height: 55%;
+}
+.inner-menu-items_3:hover .items-place-for-h2{
+animation: none;
+  opacity: .9;
+  height: 55%;
+}
+.inner-menu-items_1:hover{
+filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+}
+.inner-menu-items_2:hover{
+filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+}
+.inner-menu-items_3:hover{
+filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+}
+
+/*----------------------------------------Футер (хідер начинка)*-----------------------*/
+footer{
+	position: relative;	
+    float: left;
+    width: 100%;
+    //min-width: 1600px;
+	}
+
+.inner-footer{
+    height: 5%;
+     min-height: 45px;
+      background: url(../Images/head-picture.jpg)no-repeat center bottom ; 
+    //background:#54b04b;
+   //  background:#232323;
+	//font-weight:bolder;
+	text-align:center;  
+    color:white;   
+	font-size:11.6px;
+    vertical-align: middle;
+}
+
+#copyright{
+    background: rgba(0, 0, 0, 0.7);
+    margin-left: 15%;
+	float:left;
+    height:100%;
+    width: 15%; 
+    font-size: 14px;
+    text-align: left;
+      min-width: 150px;
+    }
+#footer-contact{
+    height:100%;
+     margin-right: 15%;
+    width: 55%; 
+	float:right;
+    text-align: right;
+}
+.social-network{
+   height: 100%;
+    
+}
+.sn-block{
+    float: right;  
+}
+#vk,#fb,#yt{
+    margin: 7px;
+    height: 35px;
+    
+     -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#vk:hover{
+    -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#fb:hover{
+    -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#yt:hover{
+    -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+a{
+   color:#7a7a7a;  
+    text-decoration: none;
+}
+/**************************************----Слайдер---*********************/
+.slider-title{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: -50px;
+    height: 10%;
+    text-align: left;
+    color: #232323;
+}
+/* Задаем сброс обтекания */
+.clear {
+	margin-top: -1px;
+	height: 1px;
+	clear:both;
+	zoom: 1;
+}		
+/* Slider */
+.slider {
+    position: relative;
+    float: left;
+    height: 20%;
+	/* Ширина контейнера */
+	width: 900px;
+    width:100%;
+   // min-width: 1150px;
+	/* Внешние тступы сверху и снизу */
+	margin: 50px auto;
+	/* Внутренние отступы для ссылок navy */
+	padding: 0 30px;
+	/* Позиционирование */
+	position: relative;
+}
+/* Двойной клик по кнопкам вперед/назад вызывает выделение всех элементов слайдера,
+поэтому предотвращаем это */
+.slider::-moz-selection { background: transparent; color: #fff; text-shadow: none; }
+.slider::selection { background: transparent; color: #fff; text-shadow: none; }
+
+.slide-list {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	/* Скроем то что выходит за границы */
+	overflow: hidden;
+}
+.slide-wrap {
+	position: relative;
+	left: 0px;
+	top: 0;
+	/* максимально возможная ширина обертки слайдера */
+	width: 10000000px;
+}
+.slide-item {
+	/* Ширина слайда */
+	width: 280px;
+	/* Внутренние отступы */
+	padding: 10px;
+	/* Обтекание */
+	float: left;
+}
+
+/* навигация вперед/назад */
+.navy {
+	/* абсолютное позиционирование */
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	height: 100%;
+	/* ширина элементов */
+	width: 30px;
+	cursor: pointer;
+}
+.prev-slide {
+	left: 0;
+	background: #dbdbdb url(bg/left-arrow.png) 11px 40% no-repeat;
+}
+.next-slide {
+	right: 0;
+	background: #dbdbdb url(bg/right-arrow.png) 13px 40% no-repeat;
+}
+.navy.disable {
+	background: #dbdbdb;
+}
+/* навигация старт/пауза */
+.auto {
+	width: 7px;
+	height: 11px;
+	cursor: pointer;
+	margin: 10px auto;
+}
+.play {
+	background: url(bg/play.png) center no-repeat;
+}
+.pause {
+	background: url(bg/pause.png) center no-repeat;
+}
+

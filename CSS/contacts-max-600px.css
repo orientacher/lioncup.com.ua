@@ -1,0 +1,104 @@
+
+.place-for-contacts{
+    margin-left: 3%;
+    height: 40%;
+    width: 97%; 
+    min-width:400px ;   
+}
+.contact{
+    min-height:100px;
+    min-width:400px ; 
+    height: 25%;
+}
+.photo{
+    height: 100%;
+    width: 20%; 
+    min-height: 130px;
+    min-width: 130px;
+}
+.contact-information{
+    width: 30%; 
+     min-height: 100px;
+    min-width: 270px;
+}
+    
+.contact-information-bottom{
+    margin-left: 10px;
+    margin-top: 20px;
+      min-height: 100px;
+    min-width: 300px;
+} 
+.contact-information-head{
+    margin-top: 20px;
+    margin-left: -5px;
+            font-size: 110%;
+}
+       
+.hide-inform_800{
+               visibility: visible; 
+    font-size: 105%;
+    margin-left: 160px;
+    margin-top: -35px;
+}
+.contact-information-bottom{
+      min-height: 100px;
+    min-width: 200px;
+}
+.phone-icon{
+     min-height: 30px;
+    min-width: 200px;
+}
+.phone-icon-photo{
+     position: relative;
+    float: left;
+    height: 50%;
+    width: 5.5%;
+     min-height: 35px;
+    min-width: 35px; 
+}
+.mail-icon{
+    position: relative;
+    float: left;
+    height: 40%;
+    width: 100%;
+}
+.mail-icon-photo{
+     position: relative;
+    float: left;
+    height: 40%;
+    width: 5%;
+    min-height: 30px;
+    min-width: 35px;   
+}
+.number-phone{
+    
+    font-size: 105%;
+}
+.number-phone-bottom{
+   font-size: 105%;
+}   
+.mail-adress{
+    margin-left: 5px;
+    font-size: 90%;
+}
+        .slider-title{
+        height: 10%;
+         margin-top: -90px;
+    margin-bottom: -10px;
+        font-size: 80%;
+    }
+    .slider {
+    position: relative;
+    float: left;
+        margin-top: -30px;
+    height: 20%;
+        width: 400px;
+    width:100%;
+          max-width: 600px;
+    }
+    .slide-item {
+        width: 200px;   
+    }
+.drop{
+  margin-top: 0px;
+}

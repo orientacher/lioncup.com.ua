@@ -1,0 +1,12 @@
+
+    .hide-inform_800{
+        visibility: visible;
+        max-width: 300px;
+        margin-top: -44px;
+        margin-left: 230px;
+        font-size: 140%;
+    }
+    .hide-inform{
+        visibility: hidden;
+    }
+

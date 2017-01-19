@@ -1,0 +1,39 @@
+
+    .programma{
+     margin-left: 0%;
+    margin-right: 0%;
+    height: 40%; 
+     width: 100%; 
+    }
+    
+    .menu-items{
+        width: 33.33%;
+        height: 80%;
+         min-height:200px ;
+        font-size: 90%;
+    }
+   .slider-title{
+         margin-top: 40px;
+    margin-bottom: 10px;
+       font-size: 100%;
+    }     
+.item-bottom{
+        margin-top: 25px;
+        font-size: 120%;
+    }
+    .menu-items-bottom{
+    min-height:75px ;
+    width: 100%;
+    height: 30%; 
+         min-width: 720px;
+
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.items-place-for-h2{
+    width: 100%;
+    height: 25%;
+}

@@ -1,0 +1,39 @@
+.programma{
+    height: 50%;
+    width: 100%; 
+    margin-top: 80px;
+    margin-left: 0%;
+    min-width: 800px;
+    color:white;
+    font-size: 1.9em;
+}
+.menu-items{
+    position: relative;
+   float: left;
+    position: relative; 
+    min-height:100px ;
+    min-width: 250px;
+    width: 33.33%;
+    height: 100%; 
+    border: 1px solid #fff;
+    transition: 0.5s;
+    box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none; 
+   text-align: left;   /*---------------------Ч/б фільтр------------------------------*/
+}
+.bottom-result-item{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    float: left;
+    font-size: 3.5vh;
+    color: #fff;
+}
+.hide-inform_800{
+    visibility: hidden;
+}
+
+
+

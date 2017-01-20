@@ -157,7 +157,7 @@ bottom:0;;
 }
 
 .drop_menu li:hover ul {
-    margin-top: 10.7px;
+    margin-top: 11.7px;
 	left:0px;
 	top:30px;
 	padding:0px;
@@ -325,11 +325,11 @@ animation: none;
         background-size: cover;
     background-position: center;
     
-    filter: grayscale(100%);
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
+     filter: grayscale(60%);
+-webkit-filter: grayscale(60%);
+-moz-filter: grayscale(60%);
+-o-filter: grayscale(60%);
+    -ms-filter: grayscale(60%);
 }
 .inner-menu-items_2 {
     position: relative;
@@ -343,11 +343,11 @@ animation: none;
         background-size: cover;
     background-position: center;
     
-    filter: grayscale(100%);
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
+       filter: grayscale(60%);
+-webkit-filter: grayscale(60%);
+-moz-filter: grayscale(60%);
+-o-filter: grayscale(60%);
+    -ms-filter: grayscale(60%);
 }
 .inner-menu-items_3 {
     position: relative;
@@ -361,11 +361,11 @@ animation: none;
         background-size: cover;
     background-position: center;
     
-    filter: grayscale(100%);
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
+    filter: grayscale(60%);
+-webkit-filter: grayscale(60%);
+-moz-filter: grayscale(60%);
+-o-filter: grayscale(60%);
+    -ms-filter: grayscale(60%);
 }
 .inner-menu-items_1:hover .items-place-for-h2{
 animation: none;
@@ -579,3 +579,7 @@ a{
 	background: url(bg/pause.png) center no-repeat;
 }
 
+.e-mail-link{
+    color: black;
+    text-decoration: underline;
+}

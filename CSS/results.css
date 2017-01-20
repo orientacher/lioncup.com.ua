@@ -101,11 +101,11 @@ animation: none;
         background-size: cover;
     background-position: center;
     
-    filter: grayscale(100%);
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
+   filter: grayscale(60%);
+-webkit-filter: grayscale(60%);
+-moz-filter: grayscale(60%);
+-o-filter: grayscale(60%);
+    -ms-filter: grayscale(60%);
    
 }
 .item-bottom{

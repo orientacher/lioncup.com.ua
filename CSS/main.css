@@ -157,7 +157,7 @@ bottom:0;;
 }
 
 .drop_menu li:hover ul {
-    margin-top: 11.7px;
+    margin-top: 10.7px;
 	left:0px;
 	top:30px;
 	padding:0px;
@@ -174,10 +174,22 @@ bottom:0;;
     box-shadow: -1px 5px  2rem rgba(0,0,0,.9);
     
 }
-
+.drop_menu li:hover ul .not-active a { 
+    background:#232323; 
+	padding:5px;
+	display:block;
+   // min-width: 150px;
+	width:157px;
+    
+}
 .drop_menu li:hover ul li a:hover { 
     background:#393939;
      color: #fff;  
+}
+.drop_menu li:hover ul .not-active a:hover { 
+        background:#232323;
+     border-bottom-color: #232323;
+    color: #fff;  
 }
 .top-sub-menu{
     margin-top:6px;   
@@ -582,4 +594,16 @@ a{
 .e-mail-link{
     color: black;
     text-decoration: underline;
+}
+.not-active:hover{
+     border-bottom-color: #232323;
+}
+.google_maps{
+    width: 100%;
+    position: relative;
+    float: left;
+    padding: 2%;
+}
+.map{
+    min-width: 300px;
 }

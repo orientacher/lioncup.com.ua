@@ -161,7 +161,7 @@ header{
     }
     .slider-title{
         height: 10%;
-         margin-top: -40px;
+         margin-top: -10px;
     margin-bottom: -10px;
         font-size: 70%;
     }
@@ -220,4 +220,8 @@ footer{
 }
 #en{float: left;
     margin-left: 5px;
+}
+.map{
+    margin-top: -50px;
+    max-height: 300px;
 }

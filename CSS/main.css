@@ -603,6 +603,7 @@ a{
     position: relative;
     float: left;
     padding: 2%;
+	margin-top: 10px;
 }
 .map{
     min-width: 300px;

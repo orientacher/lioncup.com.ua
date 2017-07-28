@@ -257,16 +257,17 @@ bottom:0;;
    // min-width: 800px;
     min-height: 320px;
 }
-.name-KL{
+
+.programma-head{
     color:#232323;
     font-size: 3.2em;
     float: left;
-    height: 5%;
+    height: 20%;
     min-height: 75px;
-    width: 100%;
+    width: 100%; 
 }
 
-.programma-head{
+.name-KL{
     color:#232323;
     font-size: 3.2em;
     float: left;
@@ -610,6 +611,7 @@ a{
     position: relative;
     float: left;
     padding: 2%;
+    padding-top: 9%;
 }
 .map{
     min-width: 300px;
